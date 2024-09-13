@@ -39,3 +39,8 @@ function errorCodes() {
 }
 
 errorCodes();
+
+let reset = prompt("Do you have another equation?");
+if (reset = "Yes") {
+    eval(prompt("Enter Your Equation"))
+} else (reset = "No")
