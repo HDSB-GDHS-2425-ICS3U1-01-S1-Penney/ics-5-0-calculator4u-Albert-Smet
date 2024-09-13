@@ -25,6 +25,7 @@ function errorCodes() {
         console.log("Invalid input, plesae re-enter numbers.");
     } else console.log(parseFloat(sum));
 }
+
 errorCodes();
 */
 let equation = eval(prompt("Enter Your Equation"))
