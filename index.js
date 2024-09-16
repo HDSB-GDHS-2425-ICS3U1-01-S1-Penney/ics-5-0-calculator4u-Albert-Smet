@@ -1,7 +1,6 @@
-/*
 let operation = prompt("What operation do you want to use (ie +, -, *, /)");
-let num1 = prompt("What is the first value?");
-let num2 = prompt("What is the second value?");
+let num1 = prompt("What is the first value? (**# = exponent)");
+let num2 = prompt("What is the second value? (**# = exponent)");
 let sum = " ";
 
 function operationTypes(x, y) {
@@ -18,6 +17,8 @@ function operationTypes(x, y) {
 
 operationTypes(num1, num2);
 
+function raiseToPower()
+
 function errorCodes() {
     if (sum == Infinity) {
         console.log("Cannot divide by zero.");
@@ -27,20 +28,25 @@ function errorCodes() {
 }
 
 errorCodes();
-*/
-let equation = eval(prompt("Enter Your Equation"))
+
+
+
+/*
+Eval Calculator
+*Dosnt work*
+
+let equation = eval(prompt("Enter Your Equation"));
+let operation = (+, -, /, *)
 
 function errorCodes() {
     if (equation == Infinity) {
         console.log("Cannot divide by zero.");
     } else if (isNaN(equation)) {
         console.log("Invalid input, plesae re-enter numbers.");
-    } else console.log(parseFloat(equation));
+    } else if ()
 }
 
 errorCodes();
 
-let reset = prompt("Do you have another equation?");
-if (reset = "Yes") {
-    eval(prompt("Enter Your Equation"))
-} else (reset = "No")
+else console.log(parseFloat(equation));
+*/
