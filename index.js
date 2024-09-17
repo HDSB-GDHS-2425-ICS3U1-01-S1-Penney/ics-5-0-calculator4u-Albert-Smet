@@ -17,8 +17,6 @@ function operationTypes(x, y) {
 
 operationTypes(num1, num2);
 
-function raiseToPower()
-
 function errorCodes() {
     if (sum == Infinity) {
         console.log("Cannot divide by zero.");
